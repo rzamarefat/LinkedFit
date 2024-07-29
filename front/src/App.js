@@ -1,9 +1,11 @@
+import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 import { Provider } from 'react-redux'
 import Store from './redux/store'
 
-import PageA from "./pages/PageA"
-import PageB from "./pages/PageB"
+import JobSearch from "./pages/JobSearch"
+import Resume from "./pages/Resume"
+import Jobs from "./pages/Jobs"
 
 
 const App = () => {
@@ -11,8 +13,9 @@ const App = () => {
         <Provider store={Store}>
             <Router>
                 <Routes>
-                    <Route path="/" element={<PageA />} />
-                    <Route path="/pageb" element={<PageB />} />
+                    <Route path="/" element={<JobSearch />} />
+                    <Route path="/jobs" element={<Jobs />} />
+                    <Route path="/resume" element={<Resume />} />
                 </Routes>
             </Router>
         </Provider>

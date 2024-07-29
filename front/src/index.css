@@ -1,0 +1,21 @@
+.full-height {
+    min-height: 100vh;
+}
+
+
+.hero-bg{
+    background: url("https://blog.drjobpro.com/wp-content/uploads/2021/01/20-Essential-LinkedIn-Profile-Tips-for-Job-Seekers.jpg") center / cover no-repeat;
+    opacity: 1;
+}
+
+.linkedin-color-bg{
+    background: #0C67D0;
+}
+
+.linkedin-color-bg:hover{
+    background: #063c7a;
+}
+
+.linkedin-color-txt{
+    color: #0C67D0;
+}
