@@ -10,11 +10,13 @@ const JobItem = () => {
 
     return (
         <>
-            <div class="card p-3 my-2" style={{width: "30rem"}}>
-                    <h5 class="card-title">Card title</h5>
+            <div class="card p-3 m-2" style={{width: "30rem"}}>
+                    <h5 class="card-title">Company Name</h5>
                     <div class="card-body">    
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h6 class="card-subtitle mb-2 text-muted">Mechanical Maintenance Engineer  - Chakan Pune (Only Diploma Mechanical )</h6>
+                        <p class="card-text">Madha, Maharashtra, India</p>
+                        <button class="btn btn-dark text-light my-1 w-100">More on this position</button>
+                        <button class="btn btn-dark text-light my-1 w-100">Check with my resume</button>
                         {/* <a href="#" class="card-link">Card link</a>
                         <a href="#" class="card-link">Another link</a> */}
                     </div>

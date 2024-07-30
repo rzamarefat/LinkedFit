@@ -5,13 +5,14 @@ const Jobs = () => {
     return (
         <>
             
-            <div class="container full-height p-5 d-flex flex-column justify-content-center align-items-center">
-                <h1 className='display-5 my-5'>Retrieved Jobs</h1>
-                <div className='row d-flex justify-content-center align-items-center full-height'>
-                    <div className='col-sm-8 d-flex flex-column align-items-center full-height'>
-                    <JobItem/>
-                    <JobItem/>
-                    <JobItem/>
+            <div class="container full-height p-3 d-flex flex-column justify-content-center align-items-center">
+                <h1 className='display-5 my-2'>Retrieved Jobs</h1>
+                <div className='row d-flex justify-content-center align-items-centers full-height'>
+                    <div className='col-sm-8 d-flex flex-row align-items-center full-height'>
+                        <JobItem/>
+                        <JobItem/>
+                        <JobItem/>
+                        <JobItem/>
                     </div>
                 </div>
             </div>
